@@ -1,0 +1,38 @@
+    @font-face {
+    font-family: 'opensans';
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+* {
+    font-weight: bold;
+    font-family: 'opensans';
+}
+
+body {
+    margin: 0px;
+}
+
+#header {
+    background-color: #F5F5F5;
+    padding: 20px;
+    color: #E91E63;
+}
+
+#body {
+    margin-top: 30px;
+}
+
+.text-cen {
+    text-align: center;
+}
+
+#notButton {
+    margin-top: 20px;
+}
+
+#notButton button {
+    background-color: white;
+    border: none;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 3px;
