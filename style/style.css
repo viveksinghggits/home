@@ -11,13 +11,16 @@
 body {
     margin: 0px;
 }
-
+#header #name{
+    color: #E91E63;
+}
 #header {
     background-color: #F5F5F5;
     padding: 20px;
-    color: #E91E63;
 }
-
+.det{
+    font-size: 12px;
+}
 #body {
     margin-top: 30px;
 }
@@ -36,3 +39,16 @@ body {
     border: 1px solid gray;
     padding: 3px;
     border-radius: 3px;
+}
+#navbar{
+    
+    width: 365px;
+    margin: auto;
+}
+#navbar ul li{
+    list-style: none;
+    float: left;
+}
+#navbar ul .margin-some{
+    margin-left: 48px;
+}
