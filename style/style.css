@@ -46,9 +46,14 @@ body {
     margin: auto;
 }
 #navbar ul li{
+    border-bottom:2px solid #E91E63;
     list-style: none;
     float: left;
 }
 #navbar ul .margin-some{
     margin-left: 48px;
+}
+#image img{
+    width: 150px;
+    height: 150px;
 }
