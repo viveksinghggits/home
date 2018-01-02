@@ -70,3 +70,9 @@ body {
     text-decoration: none;
     color: black;
 }
+.dis-block{
+    display: block;
+}
+.dis-none{
+    display: none;
+}
