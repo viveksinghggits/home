@@ -1,4 +1,4 @@
-    @font-face {
+@font-face {
     font-family: 'opensans';
     src: url("../fonts/OpenSans-Regular.ttf");
 }
@@ -60,6 +60,9 @@ body {
 #details{
     clear: both;
     padding: 10px;
+    width:50%;
+    margin: auto;
+    text-align: center;
 }
 .det-boxes{
     border: 1px solid gray;
@@ -75,4 +78,18 @@ body {
 }
 .dis-none{
     display: none;
+}
+.link-nodec{
+    text-decoration: none;
+    color: inherit;
+}
+@media(max-width:1000px){
+    #details{
+        width: 70%;
+    }
+}
+@media(max-width:800px){
+    #details{
+        width: 90%;
+    }
 }
