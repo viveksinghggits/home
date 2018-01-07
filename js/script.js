@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function(){
     document.getElementById("projs").addEventListener('click', function (){
-        displayProjects();
+        displayProjects(this);
     });
     document.getElementById("profs").addEventListener('click', function (){
-        displayProfiles();
+        displayProfiles(this);
     });
     document.getElementById("work").addEventListener('click', function (){
-        displayWorkingNow();
+        displayWorkingNow(this);
     });
     document.getElementById("namelink").addEventListener('click', function (){
         displayDefaults();
@@ -18,20 +18,32 @@ function displayDefaults(){
     hideThis("profiles");
     hideThis("workingnow");
     displayThis("default");
+    document.getElementById("profs").classList.remove("bor-bot");
+    document.getElementById("work").classList.remove("bor-bot");
+    document.getElementById("projs").classList.remove("bor-bot");
 }
-function displayProjects(){
+function displayProjects(e){
+    e.classList.add("bor-bot");
+    document.getElementById("profs").classList.remove("bor-bot");
+    document.getElementById("work").classList.remove("bor-bot");
     hideThis("default");
     hideThis("profiles");
     hideThis("workingnow");
     displayThis("projects");
 }
-function displayProfiles(){
+function displayProfiles(e){
+    e.classList.add("bor-bot");
+    document.getElementById("projs").classList.remove("bor-bot");
+    document.getElementById("work").classList.remove("bor-bot");
     hideThis("default");
     hideThis("projects");
     hideThis("workingnow");
     displayThis("profiles");
 }
-function displayWorkingNow(){
+function displayWorkingNow(e){
+    e.classList.add("bor-bot");
+    document.getElementById("profs").classList.remove("bor-bot");
+    document.getElementById("projs").classList.remove("bor-bot");
     hideThis("default");
     hideThis("projects");
     hideThis("profiles");
