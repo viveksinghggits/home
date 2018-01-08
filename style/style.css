@@ -62,7 +62,7 @@ body {
     padding: 10px;
     width:50%;
     margin: auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 .det-boxes{
     border: 1px solid gray;
@@ -71,7 +71,7 @@ body {
 }
 #details a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .dis-block{
     display: block;
@@ -95,4 +95,19 @@ body {
 }
 .bor-bot{
     border-bottom: 1px solid #E91E63;
+}
+.leftal{
+    text-align: left !important;
+}
+.topicdet{
+    font-weight: normal;    
+    padding:5px;
+}
+.cards{
+    border: 1px solid #e91e6352;
+    margin-top: 10px;
+}
+.cardheader{
+    background-color: #E91E63;
+    padding:10px;
 }
