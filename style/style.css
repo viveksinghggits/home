@@ -72,6 +72,7 @@ body {
 #details a{
     text-decoration: none;
     color: white;
+    background-color: #E91E63;
 }
 .dis-block{
     display: block;
@@ -110,4 +111,17 @@ body {
 .cardheader{
     background-color: #E91E63;
     padding:10px;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: white;
+    width:80px;
+}
+.first{
+    margin-left: 20px;
+}
+#footer{
+    padding:40px;
+    background-image: url("../images/regal.png");
 }
