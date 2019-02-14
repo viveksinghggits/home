@@ -14,6 +14,9 @@ body {
 #header #name{
     color: #E91E63;
 }
+#myimage{
+    border-radius:77px;
+}
 #header {
     background-color: #F5F5F5;
     padding: 20px;
