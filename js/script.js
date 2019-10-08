@@ -11,6 +11,9 @@ document.addEventListener('DOMContentLoaded', function(){
     document.getElementById("namelink").addEventListener('click', function (){
         displayDefaults();
     });
+    document.getElementById("blog").addEventListener('click', function (){
+        window.location.href="https://medium.com/@viveksinghggits"
+    });
 
 });
 function displayDefaults(){
