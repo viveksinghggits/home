@@ -1,11 +1,6 @@
-@font-face {
-    font-family: 'opensans';
-    src: url("../fonts/OpenSans-Regular.ttf");
-}
-
 * {
     /* font-weight: bold; */
-    font-family: 'opensans';
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -21,7 +16,8 @@ body {
     background-image: url("../images/dot-grid.png");
 }
 .det{
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
 }
 #body {
     margin-top: 30px;
