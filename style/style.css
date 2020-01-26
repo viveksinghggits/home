@@ -155,3 +155,7 @@ hr{
         margin-top: 10px;
     }
 } 
+.mail-link{
+    text-decoration: none;
+    color: black;
+}
