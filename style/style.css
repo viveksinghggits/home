@@ -11,7 +11,6 @@ body {
 }
 
 #header {
-    background-color: #F5F5F5;
     padding: 20px;
     background-image: url("../images/dot-grid.png");
 }
@@ -65,7 +64,6 @@ body {
 .det-boxes{
     /*border: 1px solid gray;*/
     padding: 10px;
-    margin-top: 20px;
 }
 #details a{
     text-decoration: none;
@@ -143,3 +141,17 @@ hr{
 #profiles .cardheader{
     text-align: center;
 }
+@media(max-width:375px){
+    #navbar ul li{
+        float: none;
+    }
+    #navbar ul .margin-some{
+        margin-left: 0px;
+    }
+    #navbar{
+        width: auto;
+    }
+    .nav-m-top{
+        margin-top: 10px;
+    }
+} 
