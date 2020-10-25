@@ -142,6 +142,16 @@ hr{
 #profiles .cardheader{
     text-align: center;
 }
+@media(max-width: 585px){
+    #ytiframe{
+        width: 400px;
+    }
+}
+@media(max-width: 435px){
+    #ytiframe{
+        width: 300px;
+    }
+}
 @media(max-width:375px){
     #navbar ul li{
         float: none;
