@@ -179,3 +179,7 @@ hr{
 .postdiv p{
     text-align: left;
 }
+.cal{
+    width: 70%;
+    margin: auto;
+}
