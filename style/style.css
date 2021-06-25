@@ -183,3 +183,10 @@ hr{
     width: 70%;
     margin: auto;
 }
+#resume{
+    margin-top: 10px;
+}
+
+#resume a{
+    text-decoration: none;
+}
