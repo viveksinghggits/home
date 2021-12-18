@@ -185,6 +185,7 @@ hr{
 }
 #resume{
     margin-top: 10px;
+    display: none;
 }
 
 #resume a{
