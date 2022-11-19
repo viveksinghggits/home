@@ -191,3 +191,10 @@ hr{
 #resume a{
     text-decoration: none;
 }
+
+.memberonly{
+    color: #E91E63;
+    border: 1px solid white;
+    padding: 5px;
+    background-color: white;
+}
