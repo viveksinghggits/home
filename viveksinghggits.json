@@ -1,0 +1,146 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Technical Skills",
+    "projects": "Personal Projects ",
+    "awards": "Certifications and Talks",
+    "work": "Professional Experience",
+    "education": "Education"
+  },
+  "basics": {
+    "phone": "+31645895645",
+    "name": "Vivek Singh",
+    "email": "vsingh.ggits.2010@gmail.com",
+    "location": {
+      "address": "The Hague, Netherlands"
+    },
+    "website": "https://viveksingh.dev/"
+  },
+  "education": [
+    {
+      "institution": "Gyan Ganga Institute of Tech. & Sciences",
+      "location": "Jabalpur, Madhya Pradesh, India",
+      "area": "Information Technology",
+      "studyType": "Bachelor of engineering",
+      "startDate": "2010",
+      "gpa": "7.8",
+      "endDate": "2014"
+    }
+  ],
+  "work": [
+    {
+      "location": "The Hague, Netherlands",
+      "position": "Lead Engineer - Product",
+      "website": "",
+      "startDate": "Nov 2018",
+      "endDate": "Present",
+      "highlights": [
+        "Leading the team that added the support, in the existing solution, to backup/migrate/restore KubeVirt Virtual Machines.",
+        "Working on a Kubernetes native product that enables data management (snapshot, export and restore) and application mobility of stateful applications on Kubernetes. As part of the team I am responsible for end to end delivery of features development and bug fixes as well as leading a team of 4 people.",
+        "Maintaining an open source CNCF project Kanister (https://github.com/kanisterio/kanister/), that helps users take application-aware backup of the databases deployed on Kubernetes.",
+        "Implemented a function as a service platform on top of Kubernetes, for a large telecom company, which will process incidents through a set of serverless functions and resolve the infrastructure issues automatically. An open source project Fission (https://github.com/fission/fission) was used to deploy the serverless workloads on Kubernetes."
+      ],
+      "company": "InfraCloud Technologies"
+    },
+    {
+      "highlights": [
+        "Developed web based enterprise application to fulfil customer's requirement and also automated the build and deployment process in order to reduce deployment time and minimise human errors."
+      ],
+      "company": "TechMahindra",
+      "position": "Software Engineer",
+      "location": "Pune, India",
+      "startDate": "Aug 2014",
+      "endDate": "Nov 2018"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "",
+      "keywords": [
+        "Go, Containers, Kubernetes, Distributed Systems, Python, Java"
+      ]
+    },
+    {
+      "keywords": [
+        "HTML5, CSS, Core JavaScript",
+        ""
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Object Oriented Design, REST API Design, Microservices",
+        ""
+      ],
+      "name": "Other Skills"
+    },
+    {
+      "keywords": [
+        "Container Storage, Distributed Systems"
+      ],
+      "name": "Interests"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Akcess",
+      "description": "An open source project to share fine-gained access of your Kubernetes cluster with others, temporarily.",
+      "url": "https://github.com/viveksinghggits/akcess",
+      "keywords": [
+        "Go, Kubernetes"
+      ]
+    },
+    {
+      "keywords": [
+        ""
+      ],
+      "name": "Youtube Channel",
+      "description": "A YouTube channel where I make videos about Containers, Kubernetes, Go and Distributed Systems. Apart from covering the Containers and Kubernetes development topics, I also wrote a dummy CSI plugin (https://github.com/viveksinghggits/bsos) for DigitalOcean.",
+      "url": "https://youtube.com/@viveksinghggits"
+    },
+    {
+      "keywords": [
+        "Go, JavaScript, HTML, CSS"
+      ],
+      "name": "Brings",
+      "description": "A web application that can be used to request someone, traveling between two locations, to bring your parcel.",
+      "url": "https://bringsapp.com/"
+    },
+    {
+      "keywords": [
+        "s Java, Servlet, JSP, JavaScript, HTML, CSS"
+      ],
+      "name": "YourTiffins",
+      "description": "An online tiffins service which lets users choose their meal, from a set of options, before placing an order."
+    },
+    {
+      "keywords": [
+        "Java, Servlet, JSP, JavaScript, HTML, CSS"
+      ],
+      "name": "Vibhi",
+      "description": "A social networking application designed especially for residential societies."
+    }
+  ],
+  "awards": [
+    {
+      "awarder": "The Linux Foundation",
+      "summary": "CKA-1900-003325-0100, Valid untill 29.09.2022",
+      "title": "CKA (Certified Kubernetes Administrator)"
+    },
+    {
+      "title": "Cloud Native Rejekts (Talk)",
+      "summary": "Dynamically Provisioning Volumes With Pre-Existing Data | Magic Behind Kubernetes Volume Populators",
+      "awarder": "https://youtu.be/9kWCaX2hKww"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "education",
+    "awards"
+  ]
+}
