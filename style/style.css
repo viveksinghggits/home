@@ -1,6 +1,5 @@
 /* Background pattern from <a href="https://www.toptal.com/designers/subtlepatterns">Toptal Subtle Patterns</a> */
 * {
-    /* font-weight: bold; */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -13,11 +12,11 @@ body {
 
 #header {
     padding: 20px;
-    background-image: url("../images/dot-grid.png");
+    /* background-image: url("../images/dot-grid.png"); */
 }
 .det{
     font-size: 14px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 #body {
     margin-top: 30px;
@@ -53,7 +52,7 @@ body {
 #image img{
     width: 150px;
     height: 150px;
-    border-radius:77px;
+    border-radius:10px;
 }
 #details{
     clear: both;
@@ -127,12 +126,7 @@ hr{
     padding:40px;
     background-image: url("../images/regal.png");
 }
-.bold{
-    font-weight: bold;
-}
-/* .topicdet a{
-    color: #E91E63 !important;
-} */
+
 .social-logo{
     width: 32px;
     height: 32px;
@@ -182,19 +176,4 @@ hr{
 .cal{
     width: 70%;
     margin: auto;
-}
-#resume{
-    margin-top: 10px;
-    display: none;
-}
-
-#resume a{
-    text-decoration: none;
-}
-
-.memberonly{
-    color: #E91E63;
-    border: 1px solid white;
-    padding: 5px;
-    background-color: white;
 }
