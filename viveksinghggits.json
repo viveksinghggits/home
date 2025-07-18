@@ -30,14 +30,25 @@
   "work": [
     {
       "location": "The Hague, Netherlands",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "June 2025",
+      "endDate": "Present",
+      "highlights": [
+        "Joined the Kubernetes team to work on MongoDB controllers for Kubernetes."
+      ],
+      "company": "MongoDB"
+    },
+    {
+      "location": "The Hague, Netherlands",
       "position": "Lead Engineer - Product",
       "website": "",
       "startDate": "Nov 2018",
-      "endDate": "Present",
+      "endDate": "May 2025",
       "highlights": [
-        "Leading the team that added the support, in the existing solution, to backup/migrate/restore KubeVirt Virtual Machines.",
-        "Working on a Kubernetes native product that enables data management (snapshot, export and restore) and application mobility of stateful applications on Kubernetes. As part of the team I am responsible for end to end delivery of features development and bug fixes as well as leading a team of 4 people.",
-        "Maintaining an open source CNCF project Kanister (https://github.com/kanisterio/kanister/), that helps users take application-aware backup of the databases deployed on Kubernetes.",
+        "Led the team that added the support, in the existing solution, to backup/migrate/restore KubeVirt Virtual Machines.",
+        "Worked on a Kubernetes native product that enables data management (snapshot, export and restore) and application mobility of stateful applications on Kubernetes. As part of the team I was responsible for end to end delivery of features development and bug fixes as well as was leading a team of 4 people.",
+        "Maintained an open source CNCF project Kanister (https://github.com/kanisterio/kanister/), that helps users take application-aware backup of the databases deployed on Kubernetes.",
         "Implemented a function as a service platform on top of Kubernetes, for a large telecom company, which will process incidents through a set of serverless functions and resolve the infrastructure issues automatically. An open source project Fission (https://github.com/fission/fission) was used to deploy the serverless workloads on Kubernetes."
       ],
       "company": "InfraCloud Technologies"
